@@ -4,8 +4,6 @@ EXPOSE 80
 
 FROM microsoft/aspnetcore-build:2.0-stretch AS build
 WORKDIR /src
-COPY ["CoreCalculator/CoreCalculator.csproj", "CoreCalculator/"]
-RUN dotnet restore "CoreCalculator/CoreCalculator.csproj"
 COPY . .
 WORKDIR "/src/CoreCalculator"
 RUN dotnet build "CoreCalculator.csproj" -c Release -o /app/build
