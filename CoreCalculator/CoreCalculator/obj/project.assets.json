@@ -13188,11 +13188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mabdulk8\\source\\repos\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
       "projectName": "CoreCalculator",
-      "projectPath": "C:\\Users\\mabdulk8\\source\\repos\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
+      "projectPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
       "packagesPath": "C:\\Users\\mabdulk8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mabdulk8\\source\\repos\\CoreCalculator\\CoreCalculator\\obj\\",
+      "outputPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
