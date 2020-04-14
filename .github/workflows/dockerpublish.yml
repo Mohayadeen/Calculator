@@ -46,7 +46,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build image
-        run: docker build /CoreCalculator/CoreCalculator/. --file Dockerfile --tag image
+        run: docker build . --file https://github.com/Mohayadeen/Calculator.git --tag image
 
       - name: Log into registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
