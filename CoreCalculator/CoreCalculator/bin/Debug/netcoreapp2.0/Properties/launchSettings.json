@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:22357/",
+      "applicationUrl": "http://localhost:5246/",
       "sslPort": 0
     }
   },
@@ -15,20 +15,20 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CoreCalculator": {
+    "CalculatorApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:22358/"
+      "applicationUrl": "http://localhost:5247/"
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "environmentVariables": {},
-      "httpPort": 22358
+      "httpPort": 10000
     }
   }
 }

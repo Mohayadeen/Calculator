@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CalculatorApi\CalculatorApi.csproj" />
+    <ProjectReference Include="..\CalculatorApi\CalculatorApi.csproj">
+      <Private>true</Private>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>

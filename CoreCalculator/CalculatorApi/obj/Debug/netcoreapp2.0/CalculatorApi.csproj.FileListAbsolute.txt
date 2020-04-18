@@ -11,3 +11,4 @@ C:\Users\mabdulk8\Documents\GitHub\Calculator\CoreCalculator\CalculatorApi\bin\D
 C:\Users\mabdulk8\Documents\GitHub\Calculator\CoreCalculator\CalculatorApi\bin\Debug\netcoreapp2.0\CalculatorApi.pdb
 C:\Users\mabdulk8\Documents\GitHub\Calculator\CoreCalculator\CalculatorApi\obj\Debug\netcoreapp2.0\CalculatorApi.dll
 C:\Users\mabdulk8\Documents\GitHub\Calculator\CoreCalculator\CalculatorApi\obj\Debug\netcoreapp2.0\CalculatorApi.pdb
+C:\Users\mabdulk8\Documents\GitHub\Calculator\CoreCalculator\CalculatorApi\obj\Debug\netcoreapp2.0\CalculatorApi.csprojAssemblyReference.cache
