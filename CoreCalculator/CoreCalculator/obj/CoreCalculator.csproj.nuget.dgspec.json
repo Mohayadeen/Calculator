@@ -4,14 +4,14 @@
     "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj": {
+    "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CalculatorApi\\CalculatorApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
-        "projectName": "CoreCalculator",
-        "projectPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CalculatorApi\\CalculatorApi.csproj",
+        "projectName": "CalculatorApi",
+        "projectPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CalculatorApi\\CalculatorApi.csproj",
         "packagesPath": "C:\\Users\\mabdulk8\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\obj\\",
+        "outputPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CalculatorApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,6 +57,83 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.9.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
+        "projectName": "CoreCalculator",
+        "projectPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\CoreCalculator.csproj",
+        "packagesPath": "C:\\Users\\mabdulk8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CoreCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mabdulk8\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fordvsts.pkgs.visualstudio.com/_packaging/VSDN_PLATFORM_LIBRARIES/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CalculatorApi\\CalculatorApi.csproj": {
+                "projectPath": "C:\\Users\\mabdulk8\\Documents\\GitHub\\Calculator\\CoreCalculator\\CalculatorApi\\CalculatorApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             }
           },
           "imports": [

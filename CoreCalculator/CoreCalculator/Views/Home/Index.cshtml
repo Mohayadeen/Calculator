@@ -1,5 +1,5 @@
-﻿@model Operation
-<form asp-controller="Home" asp-action="Index" method="post">
+﻿@model CalculatorApi.Models.Operation
+<form asp-controller="Home" asp-action="Index" method="get">
     <br />
     <div class="form-group">
         <div class="row">
@@ -12,7 +12,7 @@
         </div>
         <div class="row">
             <label asp-for="OperationType" class="col-lg-2"></label>
-            <select asp-for="OperationType" class="col-lg-2" asp-items="Html.GetEnumSelectList<OperationType>()">
+            <select asp-for="OperationType" class="col-lg-2" asp-items="Html.GetEnumSelectList<CalculatorApi.Models.OperationType>()">
                 <option selected="selected" value="">Select</option>
             </select>
         </div>

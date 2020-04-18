@@ -1,23 +1,27 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Threading.Tasks;
 
-namespace CoreCalculator.Models
+namespace CalculatorApi.Models
 {
+    
     public class Operation
-    {
+    {       
         [Display(Name = "First Number")]
         public double NumberA { get; set; }
-
+               
         [Display(Name = "Second Number")]
         public double NumberB { get; set; }
-
+               
         [Display(Name = "Result")]
         public double Result { get; set; }
-
+               
         [Display(Name = "Operation")]
         public OperationType OperationType { get; set; }
     }
+
 }
